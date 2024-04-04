@@ -3,3 +3,7 @@
 ```bash
 npx nuxi init -t gh:takasqr/nuxt-template myProject
 ```
+# Library
+
+- Nuxt Content
+- Tailwind
