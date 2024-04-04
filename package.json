@@ -10,6 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/content": "^2.12.1",
+    "@takasqr/tw-vue-ui": "^0.0.25",
     "japanjs": "^0.1.4",
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
