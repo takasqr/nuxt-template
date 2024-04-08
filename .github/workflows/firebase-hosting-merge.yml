@@ -24,6 +24,9 @@ jobs:
           scope: '@takasqr'
 
       - run: npm ci && npm run generate
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
